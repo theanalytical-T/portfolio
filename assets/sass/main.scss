@@ -386,6 +386,8 @@ article {
 	}
 }
 
+
+
 header {
 	text-align: center;
 
@@ -589,9 +591,9 @@ textarea {
 
 // }
 
-.header img {
+#header img {
 	height: 5rem;
-	width: 4rem;
+	max-width: 15rem;
 }
 
 .image {

@@ -1803,9 +1803,9 @@ textarea {
 }
 
 /* Image */
-.header img {
+#header img {
   height: 5rem;
-  width: 4rem;
+  max-width: 15rem;
 }
 
 .image {
