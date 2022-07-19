@@ -390,6 +390,9 @@ article {
 
 header {
 	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
 	p {
 		position: relative;
@@ -1080,6 +1083,9 @@ input[type="button"],
 	padding: 10em 0 20em 0;
 	position: relative;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 
 	&:before,
 	&:after {
@@ -1162,6 +1168,7 @@ input[type="button"],
 		font-size: 1.5em;
 		line-height: 1.5em;
 		margin: 0.25em 0 0 0;
+		width: 75%;
 	}
 }
 
